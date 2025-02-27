@@ -32,7 +32,7 @@ struct HomeView: View {
                     }.onTapGesture {
                         showSheet = true
                     }
-                  }.sheet(isPresented: $showSheet){
+                  }.sheet(isPresented: $showSheet) {
                       TaskView()
                   }
                 Section(header: Text("Tasks")) {
