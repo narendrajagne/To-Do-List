@@ -11,6 +11,7 @@ struct HomeView: View {
     
     let rowItems = RowItems.getRows()
     let todayItems = RowItems.getTodayTask().sorted(by: {$0.id < $1.id })
+    @State var selectedRowItems: RowItems
     
     @State private var showSheet = false
     
@@ -21,7 +22,7 @@ struct HomeView: View {
                     ForEach(todayItems) { item in
                         HStack{
                             Image(systemName: "circle")
-                            Text(item.task ?? "")
+                            Text(item.task)
                                 .fontWeight(.bold)
                             Spacer()
                             Circle()
@@ -29,18 +30,20 @@ struct HomeView: View {
                                 .foregroundColor(item.color)
                         }
                         .frame(height: 50)
-                    }.onTapGesture {
-                        showSheet = true
+                        .onTapGesture {
+                            selectedRowItems = item
+                            showSheet = true
+                        }
                     }
                   }.sheet(isPresented: $showSheet) {
-                      TaskView()
+                      TaskView(get_RowItems: $selectedRowItems)
                   }
                 Section(header: Text("Tasks")) {
                     ForEach(rowItems) { item in
                         VStack(alignment: .leading) {
                             Text(item.title)
                                 .fontWeight(.bold)
-                            Text("\(item.task ?? "0") Task")
+                            Text("\(item.task) Task")
                                 .foregroundColor(.gray)
                                 .fontWeight(.light)
                         }
@@ -74,5 +77,5 @@ struct HomeView: View {
 }
 
 #Preview {
-    HomeView()
+    HomeView(selectedRowItems: RowItems(id: UUID(), title: "", task: "", color: .blue))
 }

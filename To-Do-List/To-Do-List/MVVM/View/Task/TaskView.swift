@@ -8,11 +8,49 @@
 import SwiftUI
 
 struct TaskView: View {
+    
+    @Binding var get_RowItems: RowItems
+    @State var showSheet: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            ZStack {
+                get_RowItems.color
+                    .ignoresSafeArea()
+                List {
+                    HStack{
+                        Image(systemName: "circle")
+                        Text(get_RowItems.task)
+                    }
+                }
+                .toolbar {
+                    ToolbarItem(placement: .topBarLeading) {
+                        Button(action: {
+                            showSheet = true
+                        }) {
+                            Image(systemName: "plus")
+                        }
+                    }
+                }
+                .toolbar {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button(action: {
+
+                        }) {
+                            Image(systemName: "pencil")
+                        }
+                    }
+                }
+                .sheet(isPresented: $showSheet) {
+                    Add_EditView(showSheet: $showSheet, rowItems: $get_RowItems)
+                }
+                .scrollContentBackground(.hidden)
+                .background(Color.clear)
+            }
+        }
     }
 }
 
 #Preview {
-    TaskView()
+    TaskView(get_RowItems: .constant(RowItems(id: UUID(), title: "", task: "", color: .clear)))
 }

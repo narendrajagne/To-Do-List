@@ -19,6 +19,7 @@
 		726D980D2D7050F700961332 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D98072D7050F700961332 /* Home.swift */; };
 		726D980E2D7050F700961332 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D980A2D7050F700961332 /* HomeView.swift */; };
 		726D980F2D7050F700961332 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D980C2D7050F700961332 /* TaskView.swift */; };
+		726D98132D706D9000961332 /* Add-EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D98122D706D9000961332 /* Add-EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		726D98072D7050F700961332 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		726D980A2D7050F700961332 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		726D980C2D7050F700961332 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		726D98122D706D9000961332 /* Add-EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add-EditView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 		726D98082D7050F700961332 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				726D98112D706D6300961332 /* Add-Edit */,
 				726D98092D7050F700961332 /* Home */,
 				726D980B2D7050F700961332 /* Task */,
 			);
@@ -188,6 +191,14 @@
 				726D980C2D7050F700961332 /* TaskView.swift */,
 			);
 			path = Task;
+			sourceTree = "<group>";
+		};
+		726D98112D706D6300961332 /* Add-Edit */ = {
+			isa = PBXGroup;
+			children = (
+				726D98122D706D9000961332 /* Add-EditView.swift */,
+			);
+			path = "Add-Edit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +335,7 @@
 				726D980F2D7050F700961332 /* TaskView.swift in Sources */,
 				722AD5722D6DFA5900E52646 /* ContentView.swift in Sources */,
 				726D980D2D7050F700961332 /* Home.swift in Sources */,
+				726D98132D706D9000961332 /* Add-EditView.swift in Sources */,
 				726D980E2D7050F700961332 /* HomeView.swift in Sources */,
 				722AD5702D6DFA5900E52646 /* To_Do_ListApp.swift in Sources */,
 				722AD57C2D6DFA5A00E52646 /* To_Do_List.xcdatamodeld in Sources */,

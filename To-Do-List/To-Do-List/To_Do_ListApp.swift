@@ -13,7 +13,7 @@ struct To_Do_ListApp: App {
 
     var body: some Scene {
         WindowGroup {
-           HomeView()
+            HomeView(selectedRowItems: RowItems(id: UUID(), title: "", task: "", color: .blue))
             //ContentView()
                 //.environment(\.managedObjectContext, persistenceController.container.viewContext)
         }

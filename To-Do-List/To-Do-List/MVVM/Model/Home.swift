@@ -11,9 +11,9 @@ import SwiftUI
 struct RowItems: Identifiable {
     
     let id: UUID
-    let title: String
-    let task: String?
-    let color: Color
+    var title: String
+    var task: String
+    var color: Color
     
     static func getRows() -> [RowItems] {
         
