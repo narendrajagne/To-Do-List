@@ -57,6 +57,7 @@
 		726D980A2D7050F700961332 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		726D980C2D7050F700961332 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		726D98122D706D9000961332 /* Add-EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add-EditView.swift"; sourceTree = "<group>"; };
+		726E36952D79BF9E000851EE /* Programs.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Programs.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		72DD7EC52D719F0100366F0A /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,6 +148,7 @@
 		726D98042D7050F700961332 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				726E36952D79BF9E000851EE /* Programs.playground */,
 				72DD7EC42D719ED600366F0A /* CoreManager */,
 				726D98052D7050F700961332 /* ViewModel */,
 				726D98062D7050F700961332 /* Model */,
