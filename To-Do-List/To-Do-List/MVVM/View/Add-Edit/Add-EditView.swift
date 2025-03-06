@@ -7,11 +7,13 @@
 
 import SwiftUI
 import Foundation
+import CoreData
 
 struct Add_EditView: View {
     
     @Binding var showSheet: Bool
     @Binding var rowItems: RowItems
+    @State private var selectedDate = Date()
     
     var body: some View {
         NavigationStack {
@@ -24,7 +26,8 @@ struct Add_EditView: View {
                     .border(.gray, width: 0.5)
                     .cornerRadius(2)
                 HStack {
-                    Text("Date")
+                    DatePicker("Select a date", selection: $selectedDate, displayedComponents: .date)
+                        .datePickerStyle(.compact)
                 }
             }
             .padding()
