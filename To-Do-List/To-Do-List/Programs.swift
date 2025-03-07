@@ -225,7 +225,7 @@ class LogicProgram {
     }
 
         
-    // Sort Array in Ascending/Decending Order
+    // 13. Sort Array in Ascending/Decending Order
 
     var input_Arr = [1,2,3,4,5,4,3,2,1]
 
@@ -245,6 +245,25 @@ class LogicProgram {
                 }
                 
             }
+        }
+        
+        return array
+    }
+    
+    // 14. Write Generic function to reverse the arr
+    
+    func reverseGenericArray<T>(array: inout [T]) -> [T] {
+        
+        var n = array.count
+        
+        for i in 0..<n/2 {
+            
+            let temp = array[i]
+            
+            array[i] = array[n - i - 1]
+            
+            array[n - i - 1] = temp
+            
         }
         
         return array
@@ -286,3 +305,4 @@ let myClass2 = MyGenericClass(num2)  // => Non-Optional MyGenericClass<Int>
 // Regular Generic with Optional value
 var num3: Int? = 15
 let myClass3 = MyGenericClass<Optional<Int>>(num3)  // Non-Optional MyGenericClass<Optional<Int>>
+
