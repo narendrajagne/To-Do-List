@@ -18,6 +18,7 @@
 		722AD5922D6DFA5A00E52646 /* To_Do_ListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722AD5912D6DFA5A00E52646 /* To_Do_ListUITestsLaunchTests.swift */; };
 		7245A7282D8188C90035574B /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7245A7272D8188C90035574B /* Calculator.swift */; };
 		7245A72A2D8189FD0035574B /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7245A7292D8189FD0035574B /* CalculatorTests.swift */; };
+		724673F72D82B41D007ACFF3 /* SwiftUIQuesAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724673F62D82B41D007ACFF3 /* SwiftUIQuesAnswer.swift */; };
 		726D980D2D7050F700961332 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D98072D7050F700961332 /* Home.swift */; };
 		726D980E2D7050F700961332 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D980A2D7050F700961332 /* HomeView.swift */; };
 		726D980F2D7050F700961332 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D980C2D7050F700961332 /* TaskView.swift */; };
@@ -58,6 +59,7 @@
 		722AD5912D6DFA5A00E52646 /* To_Do_ListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7245A7272D8188C90035574B /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		7245A7292D8189FD0035574B /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		724673F62D82B41D007ACFF3 /* SwiftUIQuesAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIQuesAnswer.swift; sourceTree = "<group>"; };
 		726D98072D7050F700961332 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		726D980A2D7050F700961332 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		726D980C2D7050F700961332 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 		726D98052D7050F700961332 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				724673F62D82B41D007ACFF3 /* SwiftUIQuesAnswer.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				726D980D2D7050F700961332 /* Home.swift in Sources */,
 				726D98132D706D9000961332 /* Add-EditView.swift in Sources */,
 				726D980E2D7050F700961332 /* HomeView.swift in Sources */,
+				724673F72D82B41D007ACFF3 /* SwiftUIQuesAnswer.swift in Sources */,
 				72DD7EC62D719F0100366F0A /* CoreDataManager.swift in Sources */,
 				722AD5702D6DFA5900E52646 /* To_Do_ListApp.swift in Sources */,
 				726E36972D79C6DC000851EE /* Programs.swift in Sources */,
