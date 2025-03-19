@@ -29,6 +29,9 @@
 		726D980F2D7050F700961332 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D980C2D7050F700961332 /* TaskView.swift */; };
 		726D98132D706D9000961332 /* Add-EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D98122D706D9000961332 /* Add-EditView.swift */; };
 		726E36972D79C6DC000851EE /* Programs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E36962D79C6DC000851EE /* Programs.swift */; };
+		72CD64222D8A81890023D426 /* SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CD64212D8A81890023D426 /* SOLID.swift */; };
+		72CD64242D8A822B0023D426 /* ModernConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CD64232D8A822B0023D426 /* ModernConcurrency.swift */; };
+		72CD64262D8A9ADE0023D426 /* OoopsConcepts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CD64252D8A9ADE0023D426 /* OoopsConcepts.swift */; };
 		72DD7EC62D719F0100366F0A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD7EC52D719F0100366F0A /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +78,9 @@
 		726D980C2D7050F700961332 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		726D98122D706D9000961332 /* Add-EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add-EditView.swift"; sourceTree = "<group>"; };
 		726E36962D79C6DC000851EE /* Programs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programs.swift; sourceTree = "<group>"; };
+		72CD64212D8A81890023D426 /* SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLID.swift; sourceTree = "<group>"; };
+		72CD64232D8A822B0023D426 /* ModernConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernConcurrency.swift; sourceTree = "<group>"; };
+		72CD64252D8A9ADE0023D426 /* OoopsConcepts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OoopsConcepts.swift; sourceTree = "<group>"; };
 		72DD7EC52D719F0100366F0A /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +138,7 @@
 				7245A7272D8188C90035574B /* Calculator.swift */,
 				722AD5732D6DFA5A00E52646 /* Assets.xcassets */,
 				722AD5782D6DFA5A00E52646 /* Persistence.swift */,
+				72CD64202D8A815A0023D426 /* SwiftFundamentals */,
 				726D98042D7050F700961332 /* MVVM */,
 				722AD57A2D6DFA5A00E52646 /* To_Do_List.xcdatamodeld */,
 				722AD5752D6DFA5A00E52646 /* Preview Content */,
@@ -229,6 +236,16 @@
 				726D98122D706D9000961332 /* Add-EditView.swift */,
 			);
 			path = "Add-Edit";
+			sourceTree = "<group>";
+		};
+		72CD64202D8A815A0023D426 /* SwiftFundamentals */ = {
+			isa = PBXGroup;
+			children = (
+				72CD64212D8A81890023D426 /* SOLID.swift */,
+				72CD64232D8A822B0023D426 /* ModernConcurrency.swift */,
+				72CD64252D8A9ADE0023D426 /* OoopsConcepts.swift */,
+			);
+			path = SwiftFundamentals;
 			sourceTree = "<group>";
 		};
 		72DD7EC42D719ED600366F0A /* CoreManager */ = {
@@ -378,12 +395,15 @@
 				726D980D2D7050F700961332 /* Home.swift in Sources */,
 				726D98132D706D9000961332 /* Add-EditView.swift in Sources */,
 				726D980E2D7050F700961332 /* HomeView.swift in Sources */,
+				72CD64222D8A81890023D426 /* SOLID.swift in Sources */,
 				724673F72D82B41D007ACFF3 /* SwiftUIQuesAnswer.swift in Sources */,
 				7251C8C92D89487B006BBFA2 /* TaskFetcher.swift in Sources */,
+				72CD64242D8A822B0023D426 /* ModernConcurrency.swift in Sources */,
 				72DD7EC62D719F0100366F0A /* CoreDataManager.swift in Sources */,
 				722AD5702D6DFA5900E52646 /* To_Do_ListApp.swift in Sources */,
 				726E36972D79C6DC000851EE /* Programs.swift in Sources */,
 				7251C8CB2D8948C2006BBFA2 /* Task.swift in Sources */,
+				72CD64262D8A9ADE0023D426 /* OoopsConcepts.swift in Sources */,
 				722AD57C2D6DFA5A00E52646 /* To_Do_List.xcdatamodeld in Sources */,
 				7251C8CD2D8949B3006BBFA2 /* TaskValidator.swift in Sources */,
 			);

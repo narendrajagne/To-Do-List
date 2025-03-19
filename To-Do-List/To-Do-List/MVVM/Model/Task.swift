@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Task {
+struct TaskModel {
     
     var taskName: String?
     var assingTo: String?
@@ -19,12 +19,12 @@ struct Task {
         self.task_Status = task_Status
     }
     
-    func fetchTasks() -> [Task] {
+    func fetchTasks() -> [TaskModel] {
         
        return [
-            Task(taskName: "Create Figma of TO-DO-App", assingTo: "John", task_Status: "Completed"),
-            Task(taskName: "Create CI/CD Pipeline", assingTo: "Mark", task_Status: "Pending"),
-            Task(taskName: "Write Program without SOLID", assingTo: "Tony", task_Status: "Rejected")
+            TaskModel(taskName: "Create Figma of TO-DO-App", assingTo: "John", task_Status: "Completed"),
+            TaskModel(taskName: "Create CI/CD Pipeline", assingTo: "Mark", task_Status: "Pending"),
+            TaskModel(taskName: "Write Program without SOLID", assingTo: "Tony", task_Status: "Rejected")
         ]
     }
 }

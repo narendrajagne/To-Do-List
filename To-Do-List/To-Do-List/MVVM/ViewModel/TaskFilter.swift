@@ -10,29 +10,29 @@ import Foundation
 /* This is the example of Open/Close Principle */
 
 class TaskFilter {
-    func filterTasks(tasks: [Task], strategy: TaskFilterStrategy) -> [Task] {
+    func filterTasks(tasks: [TaskModel], strategy: TaskFilterStrategy) -> [TaskModel] {
         return strategy.filter(tasks: tasks)
     }
 }
 
 protocol TaskFilterStrategy {
-    func filter(tasks: [Task]) -> [Task]
+    func filter(tasks: [TaskModel]) -> [TaskModel]
 }
 
 class CompletedTaskFilter: TaskFilterStrategy {
-    func filter(tasks: [Task]) -> [Task] {
+    func filter(tasks: [TaskModel]) -> [TaskModel] {
         return tasks.filter { $0.task_Status == "Completed" }
     }
 }
 
 class PendingTaskFilter: TaskFilterStrategy {
-    func filter(tasks: [Task]) -> [Task] {
+    func filter(tasks: [TaskModel]) -> [TaskModel] {
         return tasks.filter { $0.task_Status == "Pending" }
     }
 }
 
 class RejectedTaskFilter: TaskFilterStrategy {
-    func filter(tasks: [Task]) -> [Task] {
+    func filter(tasks: [TaskModel]) -> [TaskModel] {
         return tasks.filter { $0.task_Status == "Rejected" }
     }
 }
