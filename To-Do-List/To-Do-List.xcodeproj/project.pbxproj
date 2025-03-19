@@ -32,6 +32,8 @@
 		72CD64222D8A81890023D426 /* SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CD64212D8A81890023D426 /* SOLID.swift */; };
 		72CD64242D8A822B0023D426 /* ModernConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CD64232D8A822B0023D426 /* ModernConcurrency.swift */; };
 		72CD64262D8A9ADE0023D426 /* OoopsConcepts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CD64252D8A9ADE0023D426 /* OoopsConcepts.swift */; };
+		72CD642A2D8AA0F10023D426 /* _𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁_1742366546.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 72CD64282D8AA0F10023D426 /* _𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁_1742366546.pdf */; };
+		72CD642B2D8AA0F10023D426 /* iOS_Memory_Management_Part_I_1742366588.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 72CD64292D8AA0F10023D426 /* iOS_Memory_Management_Part_I_1742366588.pdf */; };
 		72DD7EC62D719F0100366F0A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD7EC52D719F0100366F0A /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +83,8 @@
 		72CD64212D8A81890023D426 /* SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLID.swift; sourceTree = "<group>"; };
 		72CD64232D8A822B0023D426 /* ModernConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernConcurrency.swift; sourceTree = "<group>"; };
 		72CD64252D8A9ADE0023D426 /* OoopsConcepts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OoopsConcepts.swift; sourceTree = "<group>"; };
+		72CD64282D8AA0F10023D426 /* _𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁_1742366546.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "_𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁_1742366546.pdf"; sourceTree = "<group>"; };
+		72CD64292D8AA0F10023D426 /* iOS_Memory_Management_Part_I_1742366588.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = iOS_Memory_Management_Part_I_1742366588.pdf; sourceTree = "<group>"; };
 		72DD7EC52D719F0100366F0A /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +142,7 @@
 				7245A7272D8188C90035574B /* Calculator.swift */,
 				722AD5732D6DFA5A00E52646 /* Assets.xcassets */,
 				722AD5782D6DFA5A00E52646 /* Persistence.swift */,
+				72CD64272D8AA0D40023D426 /* Files */,
 				72CD64202D8A815A0023D426 /* SwiftFundamentals */,
 				726D98042D7050F700961332 /* MVVM */,
 				722AD57A2D6DFA5A00E52646 /* To_Do_List.xcdatamodeld */,
@@ -246,6 +251,15 @@
 				72CD64252D8A9ADE0023D426 /* OoopsConcepts.swift */,
 			);
 			path = SwiftFundamentals;
+			sourceTree = "<group>";
+		};
+		72CD64272D8AA0D40023D426 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				72CD64292D8AA0F10023D426 /* iOS_Memory_Management_Part_I_1742366588.pdf */,
+				72CD64282D8AA0F10023D426 /* _𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁_1742366546.pdf */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 		72DD7EC42D719ED600366F0A /* CoreManager */ = {
@@ -360,6 +374,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72CD642A2D8AA0F10023D426 /* _𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁_1742366546.pdf in Resources */,
+				72CD642B2D8AA0F10023D426 /* iOS_Memory_Management_Part_I_1742366588.pdf in Resources */,
 				722AD5772D6DFA5A00E52646 /* Preview Assets.xcassets in Resources */,
 				722AD5742D6DFA5A00E52646 /* Assets.xcassets in Resources */,
 			);
