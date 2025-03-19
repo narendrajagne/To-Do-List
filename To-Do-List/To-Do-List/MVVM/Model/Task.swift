@@ -1,0 +1,30 @@
+//
+//  Task.swift
+//  To-Do-List
+//
+//  Created by Mobile2 on 18/03/25.
+//
+
+import Foundation
+
+struct Task {
+    
+    var taskName: String?
+    var assingTo: String?
+    var task_Status: String?
+    
+    init(taskName: String?, assingTo: String?, task_Status: String?) {
+        self.taskName = taskName
+        self.assingTo = assingTo
+        self.task_Status = task_Status
+    }
+    
+    func fetchTasks() -> [Task] {
+        
+       return [
+            Task(taskName: "Create Figma of TO-DO-App", assingTo: "John", task_Status: "Completed"),
+            Task(taskName: "Create CI/CD Pipeline", assingTo: "Mark", task_Status: "Pending"),
+            Task(taskName: "Write Program without SOLID", assingTo: "Tony", task_Status: "Rejected")
+        ]
+    }
+}
