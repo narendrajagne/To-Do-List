@@ -10,14 +10,12 @@ import UIKit
 
 /* SOLID Principle
 
- 
 S : Single Responsibility Principle
 O : Open/Close Principle
 L : Liskov Substitution Principle
 I : Interface Seggregation Principle
 D : Depandency Inversion Principle
- 
- 
+
 */
 
 // S : Single Responsibility Principle

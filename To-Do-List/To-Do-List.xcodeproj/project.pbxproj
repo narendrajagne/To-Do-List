@@ -29,6 +29,7 @@
 		726D980F2D7050F700961332 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D980C2D7050F700961332 /* TaskView.swift */; };
 		726D98132D706D9000961332 /* Add-EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D98122D706D9000961332 /* Add-EditView.swift */; };
 		726E36972D79C6DC000851EE /* Programs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E36962D79C6DC000851EE /* Programs.swift */; };
+		72A667BA2D9183B000BEB337 /* Tech_Mahindra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A667B92D9183B000BEB337 /* Tech_Mahindra.swift */; };
 		72CD64222D8A81890023D426 /* SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CD64212D8A81890023D426 /* SOLID.swift */; };
 		72CD64242D8A822B0023D426 /* ModernConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CD64232D8A822B0023D426 /* ModernConcurrency.swift */; };
 		72CD64262D8A9ADE0023D426 /* OoopsConcepts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CD64252D8A9ADE0023D426 /* OoopsConcepts.swift */; };
@@ -81,6 +82,7 @@
 		726D980C2D7050F700961332 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		726D98122D706D9000961332 /* Add-EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add-EditView.swift"; sourceTree = "<group>"; };
 		726E36962D79C6DC000851EE /* Programs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programs.swift; sourceTree = "<group>"; };
+		72A667B92D9183B000BEB337 /* Tech_Mahindra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tech_Mahindra.swift; sourceTree = "<group>"; };
 		72CD64212D8A81890023D426 /* SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLID.swift; sourceTree = "<group>"; };
 		72CD64232D8A822B0023D426 /* ModernConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernConcurrency.swift; sourceTree = "<group>"; };
 		72CD64252D8A9ADE0023D426 /* OoopsConcepts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OoopsConcepts.swift; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 				72CD64232D8A822B0023D426 /* ModernConcurrency.swift */,
 				72CD64252D8A9ADE0023D426 /* OoopsConcepts.swift */,
 				72CD642C2D8AA1BF0023D426 /* MemoryManagement.swift */,
+				72A667B92D9183B000BEB337 /* Tech_Mahindra.swift */,
 			);
 			path = SwiftFundamentals;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				726D980D2D7050F700961332 /* Home.swift in Sources */,
 				726D98132D706D9000961332 /* Add-EditView.swift in Sources */,
 				726D980E2D7050F700961332 /* HomeView.swift in Sources */,
+				72A667BA2D9183B000BEB337 /* Tech_Mahindra.swift in Sources */,
 				72CD64222D8A81890023D426 /* SOLID.swift in Sources */,
 				724673F72D82B41D007ACFF3 /* SwiftUIQuesAnswer.swift in Sources */,
 				7251C8C92D89487B006BBFA2 /* TaskFetcher.swift in Sources */,
