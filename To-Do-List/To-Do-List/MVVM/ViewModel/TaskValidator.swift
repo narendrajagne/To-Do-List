@@ -15,5 +15,4 @@ class TaskValidator {
         }
         return true
     }
-    
 }
